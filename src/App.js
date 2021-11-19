@@ -31,9 +31,7 @@ const App = () => {
   
   
   const addSutdentHandler= student => {
-    setStudent([pre_Students => {
-      return [student, ...students]
-    }]);   
+    setStudent([student, ...students]);   
   };
 
   return (
